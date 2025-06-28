@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    container_name: devops-flare-web
+    ports:
+      - "8080:3000"          # host:container
+    networks:
+      - devops-net
+    restart: unless-stopped
+
+networks:
+  devops-net:
+    driver: bridge

@@ -1,0 +1,16 @@
+{
+  "name": "devops-flare-demo",
+  "version": "1.0.0",
+  "description": "Node + Docker + GitHub Actions CI/CD demo (no cloud)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint":  "echo \"(add ESLint later)\"",
+    "test":  "echo \"(add tests later)\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
